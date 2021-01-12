@@ -1,5 +1,7 @@
 package SingleLinkedList;
 
+import java.awt.desktop.SystemEventListener;
+
 public class SingleLinkedList {
     public static class Node{  //
         private Node next;
@@ -139,16 +141,68 @@ public class SingleLinkedList {
             runner = runner.next.next;
             if(walker == runner)return true;
         }
+
         return false;
+    }
+
+    public Node FindNode(int value){//Find the first Node that Node.value == value
+        Node position = head;
+
+        while (position.value != value){
+            position = position.next;
+        }
+
+        return position;
+    }
+
+    public int GetLengthOfLinkedList(){
+        if (head == null)return 0;
+
+        int length = 1;
+        Node position = head;
+
+        while (position.next != null){
+            position = position.next;
+            length++;
+        }
+
+        return length;
+    }
+    public void DeleteNodeReversely(int BackCount){//Delete the (BackCount)th Node in a reverse order;
+        int length = GetLengthOfLinkedList();
+        if(length == 0)return;
+
+        int NumOfBeforeNode = length - BackCount -1;
+        Node BeforeNode = head;
+        for(int i = 0; i < NumOfBeforeNode; i++){
+            BeforeNode = BeforeNode.next;
+        }
+
+        BeforeNode.next = BeforeNode.next.next;
+    }
+
+    public void FineMiddleNode(){
+
     }
 
     public static void main(String[] args) {
         SingleLinkedList linkedList = new SingleLinkedList();
-        int[] value = new int[]{1, 3, 5, 7, 9};
-        for (int i = 0; i< value.length; i++){
-            linkedList.InsertToTail(value[i]);
+        int[] value = new int[]{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29};
+        for (int j : value) {
+            linkedList.InsertToTail(j);
         }
         linkedList.PrintList();
+
+//        //Creat a linked list with cycle
+//        Node StartCycle = linkedList.FindNode(13);
+//        Node TailNode = linkedList.FindNode(29);
+//        TailNode.next = StartCycle;
+//        boolean HasCycle = linkedList.HasCycle(linkedList.head);
+//        if (HasCycle == true){
+//            System.out.println("The linked list has a cycle");
+//        }else {
+//            System.out.println("The lined list has no cycle");
+//        }
 
 //        System.out.println("Test insert to head");
 //        linkedList.InsertToHead(11);
@@ -162,10 +216,12 @@ public class SingleLinkedList {
 //        linkedList.DeleteNode(1);
 //        linkedList.PrintList();
 
-        System.out.println("Test inverse list");
-        linkedList.InverseList();
+//        System.out.println("Test inverse list");
+//        linkedList.InverseList();
+//        linkedList.PrintList();
+
+        System.out.println("Test delete the ith Node in a reverse order");
+        linkedList.DeleteNodeReversely(5);
         linkedList.PrintList();
-
-
     }
 }
