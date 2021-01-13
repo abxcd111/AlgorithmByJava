@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67c0e8ab-9a51-4b5b-b1db-229fd471f819" name="Default Changelist" comment="">
+    <list default="true" id="67c0e8ab-9a51-4b5b-b1db-229fd471f819" name="Default Changelist" comment="Add DeleteNodeReversely">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SingleLinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLinkedList/SingleLinkedList.java" afterDir="false" />
     </list>
@@ -72,8 +72,16 @@
       <updated>1610352338934</updated>
       <workItem from="1610352340371" duration="26472000" />
       <workItem from="1610439352185" duration="1285000" />
-      <workItem from="1610441724149" duration="7348000" />
+      <workItem from="1610441724149" duration="12859000" />
     </task>
+    <task id="LOCAL-00001" summary="Add DeleteNodeReversely">
+      <created>1610454347138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610454347138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,5 +98,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add DeleteNodeReversely" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DeleteNodeReversely" />
   </component>
 </project>

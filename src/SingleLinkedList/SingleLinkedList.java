@@ -181,8 +181,16 @@ public class SingleLinkedList {
         BeforeNode.next = BeforeNode.next.next;
     }
 
-    public void FineMiddleNode(){
+    public Node FindMiddleNode(){
 
+        Node walker = head;
+        Node runner = head;
+
+        while (runner != null && runner.next != null){//only considering runner is enough
+            walker = walker.next;
+            runner = runner.next.next;
+        }
+        return walker;
     }
 
     public static void main(String[] args) {
