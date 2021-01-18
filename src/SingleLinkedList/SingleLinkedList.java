@@ -118,32 +118,44 @@ public class SingleLinkedList {
     }
 
     public void InverseList(){
-        if (head == null)return;
+//        if (head == null)return;
+//
+//        Node newList = new Node(head.value, null);
+//        Node position = head;
+//
+//        while (position.next != null){
+//            position = position.next;
+//            newList = new Node(position.value, newList);
+//        }
+//        head = newList;
+        Node lasthead = head.next;
+        Node temp = null;
+        head.next = null;
 
-        Node newList = new Node(head.value, null);
-        Node position = head;
-
-        while (position.next != null){
-            position = position.next;
-            newList = new Node(position.value, newList);
-        }
-        head = newList;
-    }
-
-    public boolean HasCycle(Node listHead){
-        if (listHead == null)
-            return false;
-
-        Node walker = listHead;
-        Node runner = listHead;
-        while (runner != null && runner.next != null){
-            walker = walker.next;
-            runner = runner.next.next;
-            if(walker == runner)return true;
+        while(lasthead != null){
+            temp = lasthead;
+            lasthead = lasthead.next;
+            temp.next = head;
+            head = temp;
         }
 
-        return false;
+
     }
+
+//    public boolean HasCycle(Node listHead){
+//        if (listHead == null)
+//            return false;
+//
+//        Node walker = listHead;
+//        Node runner = listHead;
+//        while (runner != null && runner.next != null){
+//            walker = walker.next;
+//            runner = runner.next.next;
+//            if(walker == runner)return true;
+//        }
+//
+//        return false;
+//    }
 
     public Node FindNode(int value){//Find the first Node that Node.value == value
         Node position = head;
@@ -193,13 +205,13 @@ public class SingleLinkedList {
         return walker;
     }
 
-    public static void main(String[] args) {
-        SingleLinkedList linkedList = new SingleLinkedList();
-        int[] value = new int[]{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29};
-        for (int j : value) {
-            linkedList.InsertToTail(j);
-        }
-        linkedList.PrintList();
+    public  void ListTest(String[] args) {
+//        SingleLinkedList linkedList = new SingleLinkedList();
+//        int[] value = new int[]{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29};
+//        for (int j : value) {
+//            linkedList.InsertToTail(j);
+//        }
+//        linkedList.PrintList();
 
 //        //Creat a linked list with cycle
 //        Node StartCycle = linkedList.FindNode(13);
@@ -228,8 +240,10 @@ public class SingleLinkedList {
 //        linkedList.InverseList();
 //        linkedList.PrintList();
 
-        System.out.println("Test delete the ith Node in a reverse order");
-        linkedList.DeleteNodeReversely(5);
-        linkedList.PrintList();
+//        System.out.println("Test delete the ith Node in a reverse order");
+//        linkedList.DeleteNodeReversely(5);
+//        linkedList.PrintList();
+
+
     }
 }
