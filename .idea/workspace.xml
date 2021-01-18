@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c0e8ab-9a51-4b5b-b1db-229fd471f819" name="Default Changelist" comment="Delete Stack.java">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortAlgorithm/SortAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingleLinkedList/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingleLinkedList/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortAlgorithm/SortAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortAlgorithm/SortAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1610687224831" duration="638000" />
       <workItem from="1610689790474" duration="1200000" />
       <workItem from="1610698456040" duration="2899000" />
-      <workItem from="1610798431154" duration="8039000" />
+      <workItem from="1610798431154" duration="27922000" />
     </task>
     <task id="LOCAL-00001" summary="Add DeleteNodeReversely">
       <created>1610454347138</created>
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610594694137</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add BubbleSort and InsertSort">
+      <created>1610941501451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610941501451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +137,26 @@
     <MESSAGE value="Add FindMiddleNode" />
     <MESSAGE value="Add Stack" />
     <MESSAGE value="Delete Stack.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Stack.java" />
+    <MESSAGE value="Add BubbleSort and InsertSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BubbleSort and InsertSort" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NegativeArraySizeException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SortAlgorithm/SortAlgorithm.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
