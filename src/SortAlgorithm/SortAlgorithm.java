@@ -84,12 +84,43 @@ public class SortAlgorithm {
         }
     }
 
+    //快速排序
+    public void QuickSort(int[] array){
+        QuickSort_t(array, 0, array.length-1);
+    }
+    public void QuickSort_t(int[] array, int start, int end){//pivot denotes the subscript of partition node
+        if (start >= end)return;
+
+        int pivot = Partition(array, start, end);
+        QuickSort_t(array, start, pivot - 1 );
+        QuickSort_t(array, pivot + 1, end);
+    }
+    public int Partition(int[] array, int start, int end){
+        int i = start;
+        int temp = 0;
+
+        for (int j = start; j < end ; j++){
+            if(array[j] < array[end]){
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+                i++;
+            }
+        }
+        temp = array[i];
+        array[i] = array[end];
+        array[end] = temp;
+        return i ;
+    }
+
+
     public void SortTest(){
         int[] array = new int[] {4,7,3,7,3,6,3,7,4,6,6,8,2,3,4,5,8,9,4,6,3,7,8,1};
-
+//        int[] array = new int[] {3,11,6,7,8,7};
 //        BubbleSort(array);
 //        InsertSort(array);
-        MergeSort(array);
+//        MergeSort(array);
+        QuickSort(array);
         for (int i = 0; i < array.length; i++){
             System.out.print(" " + array[i]);
         }
