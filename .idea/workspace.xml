@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67c0e8ab-9a51-4b5b-b1db-229fd471f819" name="Default Changelist" comment="Delete Stack.java">
+      <change afterPath="$PROJECT_DIR$/src/GeekTime/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que03_FindRepeatNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que05_ReplaceSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que06_ReversePrint/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que06_ReversePrint/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que07_BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que13_RobotsRangeOfMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que14_CutRopeRope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que16_MyPow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que17_printNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordToOffer/Que19_isMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,30 +46,88 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Que19_isMatch">
+    <configuration name="Que07_BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordToOffer.Que07_BuildTree" />
       <module name="AlgorithmByJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Que13_RobotsRangeOfMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordToOffer.Que13_RobotsRangeOfMotion" />
+      <module name="AlgorithmByJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Que14_CutRopeRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordToOffer.Que14_CutRopeRope" />
+      <module name="AlgorithmByJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Que16_MyPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordToOffer.Que16_MyPow" />
+      <module name="AlgorithmByJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Que19_isMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwordToOffer.Que19_isMatch" />
+      <module name="AlgorithmByJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwordToOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Que16_MyPow" />
+      <item itemvalue="Application.Que14_CutRopeRope" />
+      <item itemvalue="Application.Que13_RobotsRangeOfMotion" />
+      <item itemvalue="Application.Que07_BuildTree" />
+      <item itemvalue="Application.Que19_isMatch" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Que19_isMatch" />
+        <item itemvalue="Application.Que16_MyPow" />
+        <item itemvalue="Application.Que14_CutRopeRope" />
+        <item itemvalue="Application.Que13_RobotsRangeOfMotion" />
+        <item itemvalue="Application.Que07_BuildTree" />
       </list>
     </recent_temporary>
   </component>
@@ -76,7 +146,15 @@
       <workItem from="1610687224831" duration="638000" />
       <workItem from="1610689790474" duration="1200000" />
       <workItem from="1610698456040" duration="2899000" />
-      <workItem from="1610798431154" duration="33674000" />
+      <workItem from="1610798431154" duration="34280000" />
+      <workItem from="1614934772017" duration="876000" />
+      <workItem from="1614935707810" duration="23182000" />
+      <workItem from="1617716276663" duration="309000" />
+      <workItem from="1617717591174" duration="4408000" />
+      <workItem from="1617785387404" duration="2523000" />
+      <workItem from="1618117451686" duration="5293000" />
+      <workItem from="1618542260270" duration="5017000" />
+      <workItem from="1619579522171" duration="1572000" />
     </task>
     <task id="LOCAL-00001" summary="Add DeleteNodeReversely">
       <created>1610454347138</created>
@@ -127,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610977334034</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add QuickSort">
+      <created>1611031823776</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611031823776</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +255,36 @@
           <url>file://$PROJECT_DIR$/src/SortAlgorithm/SortAlgorithm.java</url>
           <line>98</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordToOffer/Que07_BuildTree.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordToOffer/Que13_RobotsRangeOfMotion.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordToOffer/Que14_CutRopeRope.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordToOffer/Que16_MyPow.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordToOffer/Que16_MyPow.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordToOffer/Que19_isMatch.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
